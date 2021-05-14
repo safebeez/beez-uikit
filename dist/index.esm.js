@@ -2429,7 +2429,7 @@ var PanelFooter = function (_a) {
         React.createElement(SettingsEntry, null,
             beePriceUsd ? (React.createElement(BeePriceLink, { href: beePriceLink, target: "_blank" },
             React.createElement(Icon$v, { width: "24px", mr: "8px" }),
-            React.createElement(Text, { color: "textSubtle", bold: true }, "(1T BEEZ) $" + beePriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 160, height: 24 })),
+            React.createElement(Text, { color: "textSubtle", bold: true }, "(1B BEEZ) $" + beePriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 160, height: 24 })),
         ),
         React.createElement(SettingsEntry, null,
             cakePriceUsd ? (React.createElement(PriceLink, { href: priceLink, target: "_blank" },
