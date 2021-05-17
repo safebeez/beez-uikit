@@ -2434,7 +2434,7 @@ var PanelFooter = function (_a) {
         React.createElement(SettingsEntry, null,
             cakePriceUsd ? (React.createElement(PriceLink, { href: priceLink, target: "_blank" },
             React.createElement(Icon$va, { width: "24px", mr: "8px" }),
-            React.createElement(Text, { color: "textSubtle", bold: true }, "(1 HONEY)  $" + cakePriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 160, height: 24 })),
+            React.createElement(Text, { color: "textSubtle", bold: true }, "(1 HNYCMB)  $" + cakePriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 160, height: 24 })),
         ),
         React.createElement(SocialEntry, null,
                 React.createElement(Flex, null, socials.map(function (social, index) {
